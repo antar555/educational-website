@@ -12,18 +12,19 @@ const About = () => {
     }
     return (
         <div>
-            <div className="bg-primary container-fluid mb-3 " style={about}>
+          
+            <div className=" container-fluid mb-3 " style={about}>
                 <br />
                 <br />
                 <br />
        
        <div className="row p-3 d-flex align-items-center justify-content-evenly">
            <br />
-       <div className="col-lg-4 p-4  border border-5">
-           <h1 className="text-white fw-bold">
+       <div className="col-lg-4 p-4   shadow p-3 mb-5 bg-body rounded">
+           <h1 className="text-black fw-bold">
                <span className="text-warning">About</span> <span className="text-white">Us</span></h1>
        
-               <p className="text-white ">{about.des}</p>
+               <p className="text-success fw-bolder ">{about.des}</p>
                
 
        </div>
@@ -39,6 +40,7 @@ const About = () => {
    
 
    </div>
+      
            
         </div>
     );

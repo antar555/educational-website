@@ -15,12 +15,12 @@ const Featured = (props) => {
                        
                        
                     </div>
-                    <div>
+                    <div className="mx-auto">
                        <button className="btn btn-primary">Enroll Now</button>
                     </div>
                     <br />
                     <div className="card-footer">
-                        <small className="text-muted">Price: {fee} TK</small>
+                        <small className="text-muted"> <p className="text-center"> Price: {fee} TK </p></small>
                        
                     </div>
                 </div>

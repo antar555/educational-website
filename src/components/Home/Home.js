@@ -35,8 +35,8 @@ const Home = () => {
 
         </div>
         <div>
-           <h1>Featured courses</h1>
-           <h6>Uplift your skills with these trendy courses</h6>
+           <h1 class="text-center">Featured courses</h1>
+           <h6 class="text-center">Uplift your skills with these trendy courses</h6>
            <section className="container mb-3">
             <div className="row row-cols-1 row-cols-md-4 g-4 mb-2">
             {

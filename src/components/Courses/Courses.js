@@ -14,7 +14,7 @@ const Courses = () => {
         <div>
             <br />
             
-            <h3 className="text-info fw-bolder">Courses Offered</h3>
+            <h3 className="text-info fw-bolder text-center">Courses Offered</h3>
             <section className="container">
             <div className="row row-cols-1 row-cols-md-3 g-4 mb-2">
             {

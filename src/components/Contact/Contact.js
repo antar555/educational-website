@@ -6,20 +6,46 @@ const Contact = () => {
    
     return (
         
-           
-        <div  className="container d-flex justify-content-center align-items-center  rounded-3 my-5 shadow-lg p-3 mb-5 bg-body rounded">
-           
-        <div className="contact-form">
-          <h1>Contact Us</h1>
-          <p>To Learn and Enlighten Yourself</p>
-          <input type="email" className="form-control" placeholder="Your Email" id="exampleInputEmail1" aria-describedby="emailHelp"/>
-          <br />
-          <br />
+      <div>
+        <br />
+        <h1 className="text-center">Contact Us</h1>
+        <br />
+      
+     <div className="container py-4 w-50  shadow p-3 mb-5 bg-body rounded">
+       
+      <div>
+      
+      
+        <form id="contactForm">
+      
+         
+          <div className="mb-3">
+            <label className="form-label" >Name</label>
+            <input className="form-control" id="name" type="text" placeholder="Name" />
+          </div>
+      
           
-          <button type="submit" className="btn btn-dark">Submit</button>
-        </div>
-
-         </div>
+          <div className="mb-3">
+            <label className="form-label">Email Address</label>
+            <input className="form-control" id="emailAddress" type="email" placeholder="Email Address" />
+          </div>
+      
+         
+          <div className="mb-3">
+            <label className="form-label">Message</label>
+            <textarea className="form-control" id="message" type="text" placeholder="Message" style= {{height: '10rem'}}></textarea>
+          </div>
+      
+         
+          <div className="d-grid">
+            <button className="btn btn-primary btn-lg" type="submit">Submit</button>
+          </div>
+      
+        </form>
+      
+      </div>
+      </div>
+      </div>
 
         
     );
